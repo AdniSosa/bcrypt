@@ -4,7 +4,6 @@
 // implementalas en `crypto/confing.js` y úsalas en secret de session y donde creas que sea necesario. 
 
 const express = require('express'),
-jwt = require('jsonwebtoken'),
 session = require('express-session'),
 routes = require('./routes/users'),
 password = require('./crypto/config'),

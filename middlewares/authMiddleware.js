@@ -1,6 +1,5 @@
 // Este middleware manejará la generación del token y verificación.
-const session = require('express-session'),
-jwt = require('jsonwebtoken'),
+const jwt = require('jsonwebtoken'),
 password = require('../crypto/config');
 
 function tokenGenerator(user) {
